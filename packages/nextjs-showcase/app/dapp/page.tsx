@@ -37,8 +37,8 @@ const FHEVM_CONFIG = {
   relayerUrl: 'https://relayer.testnet.zama.org',
 };
 
-// 合约地址（部署后更新）
-const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '0xYourContractAddress';
+// Contract Address (deployed on Sepolia)
+const CONTRACT_ADDRESS = '0xdb6CFA912e20d4DeF31681ddDc3C67D0F8318587';
 
 // 合约 ABI（简化版）
 const CONTRACT_ABI = [
