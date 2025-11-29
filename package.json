@@ -1,0 +1,31 @@
+{
+  "name": "crypto-gift-secret-redpacket",
+  "version": "1.0.0",
+  "description": "A secret red packet demo powered by FHEVM - Guess the number to unlock",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter nextjs-showcase dev",
+    "build": "pnpm --filter nextjs-showcase build",
+    "start": "pnpm --filter nextjs-showcase start",
+    "hardhat:compile": "pnpm --filter hardhat compile",
+    "hardhat:test": "pnpm --filter hardhat test",
+    "hardhat:deploy": "pnpm --filter hardhat deploy"
+  },
+  "keywords": [
+    "fhevm",
+    "zama",
+    "privacy",
+    "encryption",
+    "red-packet"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
+
