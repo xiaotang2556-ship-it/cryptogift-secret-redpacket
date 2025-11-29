@@ -40,7 +40,7 @@ pnpm hardhat:deploy --network sepolia
 - **FHEVM Version**: v0.9
 - **Smart Contract**: SecretRedPacket.sol (deployed on Sepolia)
 - **Frontend**: Next.js 15 + Tailwind CSS + RainbowKit
-- **SDK**: Zama Relayer SDK 0.2.0
+- **SDK**: Zama Relayer SDK 0.3.0-5
 
 ## 🔒 How It Works
 
