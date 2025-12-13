@@ -301,8 +301,9 @@ export default function DAppPage() {
         console.log('🔐 Real mode: normal decryption...');
         const decryptedResults = await decryptPromise;
         const decryptedValue = decryptedResults[encryptedHandle];
-        console.log('✅ Decrypted result:', decryptedValue);
-        setResult(decryptedValue);
+        console.log('✅ Decrypted result (bigint):', decryptedValue);
+        // 转换 bigint 为 number，避免 1n !== 1 的问题
+        setResult(Number(decryptedValue));
       }
       
     } catch (e: any) {
