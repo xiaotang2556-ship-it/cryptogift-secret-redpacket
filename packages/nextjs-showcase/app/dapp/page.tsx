@@ -485,7 +485,7 @@ export default function DAppPage() {
                     <span className="flex flex-col items-center justify-center gap-2">
                       <div className="flex items-center gap-2">
                         <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                        解密中...
+                        Decrypting...
                       </div>
                       <span className="text-xs opacity-90">
                         ⏳ Usually takes 30-60 seconds, please be patient
